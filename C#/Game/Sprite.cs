@@ -32,9 +32,17 @@ namespace Game
         }
         virtual public bool collision(PictureBox other)
         {
-            Debug.Print(m_picture.Name + " collided with " + other.Name);
+            if (other.Image == Image.FromFile("download.jpg"))
+            {
+                 MessageBox.Show("End game");
+                 Environment.Exit(0);
+            }
+
+                Debug.Print(m_picture.Name + " collided with " + other.Name);
             return false;//  don't go through stuff
+
         }
+      
         public void move(int X, int Y)
         {
             if (!m_parent.moveTo(m_picture, m_speed * X, m_speed * Y))

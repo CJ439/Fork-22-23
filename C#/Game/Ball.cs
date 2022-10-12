@@ -20,6 +20,8 @@ namespace Game
         }
         public override bool collision(PictureBox other)
         {
+           
+
             Debug.Print(m_picture.Name + " collided with " + other.Name);
             // We collided, so let's figure out which way we should "bounce"
             // Clear

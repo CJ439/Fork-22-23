@@ -17,6 +17,9 @@ namespace Game
         Sprite p1;
         Chaser p2;
         Ball b1;
+        Ball b2;
+        Ball b3;
+
 
         public Form1()
         {
@@ -26,11 +29,16 @@ namespace Game
             p1 = new Sprite(player);
             p2 = new Chaser(player2);
             b1 = new Ball(Ballpicture, 5, 5);
+            b2 = new Ball(ballpicture2, 5, 5);
+            b3 = new Ball(Ballpicture3, 5, 5);
             c.Add(p1);
             c.Add(p2);
             c.Add(b1);
+            c.Add(b2);
+            c.Add(b3);
+
         }
-        
+
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
 
@@ -96,12 +104,24 @@ namespace Game
 
         }
 
+        public void GameReset()
+        {
+            this.Close();
+        }
+        public void GameEnd()
+            {
+            if (player.Bounds.IntersectsWith(Ballpicture.Bounds))
+            GameReset();
+                    
+
+            }
         private void timer1_Tick(object sender, EventArgs e)
         {
             if (progressBar1.Value < progressBar1.Maximum)
                 progressBar1.Value++;
             // let the canvas do all the work
             c.tick();
+
         }
 
 

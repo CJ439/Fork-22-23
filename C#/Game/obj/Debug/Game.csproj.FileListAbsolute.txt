@@ -9,3 +9,14 @@ C:\Users\Android\source\repos\SY22-23\C#\Game\obj\Debug\Game.csproj.GenerateReso
 C:\Users\Android\source\repos\SY22-23\C#\Game\obj\Debug\Game.csproj.CoreCompileInputs.cache
 C:\Users\Android\source\repos\SY22-23\C#\Game\obj\Debug\Game.exe
 C:\Users\Android\source\repos\SY22-23\C#\Game\obj\Debug\Game.pdb
+C:\Users\cjcow439\source\repos\Videogame6\Videogame6\Fork-22-23\C#\Game\bin\Debug\Game.exe.config
+C:\Users\cjcow439\source\repos\Videogame6\Videogame6\Fork-22-23\C#\Game\bin\Debug\Game.exe
+C:\Users\cjcow439\source\repos\Videogame6\Videogame6\Fork-22-23\C#\Game\bin\Debug\Game.pdb
+C:\Users\cjcow439\source\repos\Videogame6\Videogame6\Fork-22-23\C#\Game\obj\Debug\Game.csproj.AssemblyReference.cache
+C:\Users\cjcow439\source\repos\Videogame6\Videogame6\Fork-22-23\C#\Game\obj\Debug\Game.csproj.SuggestedBindingRedirects.cache
+C:\Users\cjcow439\source\repos\Videogame6\Videogame6\Fork-22-23\C#\Game\obj\Debug\Game.Form1.resources
+C:\Users\cjcow439\source\repos\Videogame6\Videogame6\Fork-22-23\C#\Game\obj\Debug\Game.Properties.Resources.resources
+C:\Users\cjcow439\source\repos\Videogame6\Videogame6\Fork-22-23\C#\Game\obj\Debug\Game.csproj.GenerateResource.cache
+C:\Users\cjcow439\source\repos\Videogame6\Videogame6\Fork-22-23\C#\Game\obj\Debug\Game.csproj.CoreCompileInputs.cache
+C:\Users\cjcow439\source\repos\Videogame6\Videogame6\Fork-22-23\C#\Game\obj\Debug\Game.exe
+C:\Users\cjcow439\source\repos\Videogame6\Videogame6\Fork-22-23\C#\Game\obj\Debug\Game.pdb
